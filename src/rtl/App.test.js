@@ -6,7 +6,6 @@ import { render, cleanup, fireEvent, screen, waitFor, queryByText, queryAllByTex
 import App from "../App";
 import feedFixture from "./fixtures/feed.json";
 
-// only mock HTTP layer
 jest.mock("axios");
 
 const getFeedMock = jest.fn();
