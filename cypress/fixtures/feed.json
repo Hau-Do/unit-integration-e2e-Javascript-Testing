@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "title": "JavaScript conference in Berlin",
+    "message": "Early bird tickets on sale before 15 August 2019"
+  },
+  {
+    "id": "2",
+    "title": "Event-driven architecture meet-up in Paris",
+    "message": "Limited availability, make sure to book your place"
+  },
+  {
+    "id": "3",
+    "title": "What is FinTech?",
+    "message": "Join this event to learn more"
+  }
+]

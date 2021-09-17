@@ -1,0 +1,15 @@
+{
+  "extends": ["react-app", "plugin:jest/recommended"],
+  "plugins": ["prettier", "jest"],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "globals": {
+    "cy": "readonly"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "jest/no-large-snapshots": ["error", { "maxSize": 50 }],
+    "jest/valid-expect": "off"
+  }
+}

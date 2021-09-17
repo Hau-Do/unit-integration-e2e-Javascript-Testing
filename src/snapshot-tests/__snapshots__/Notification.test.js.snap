@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification full snapshot test renders a Notification 1`] = `
+<div
+  className="MuiPaper-root-4 MuiPaper-elevation1-7 MuiPaper-rounded-5 MuiCard-root-3 Notification-card-1"
+  data-testid="notification-id-notification-test-id"
+>
+  <div
+    className="MuiCardHeader-root-31"
+  >
+    <div
+      className="MuiCardHeader-content-34"
+    >
+      <span
+        className="MuiTypography-root-37 MuiTypography-headline-42 MuiCardHeader-title-35"
+      >
+        my test title
+      </span>
+    </div>
+  </div>
+  <div
+    className="MuiCardContent-root-73"
+  >
+    my test message
+  </div>
+  <div
+    className="MuiCardActions-root-74"
+  >
+    <button
+      className="MuiButtonBase-root-103 MuiButton-root-77 MuiButton-outlined-85"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-78"
+      >
+        Like
+      </span>
+      <span
+        className="MuiTouchRipple-root-115"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-103 MuiButton-root-77 MuiButton-contained-88 MuiButton-containedPrimary-89 MuiButton-raised-91 MuiButton-raisedPrimary-92 MuiCardActions-action-76"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-78"
+      >
+        Delete
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-106 Notification-rightIcon-2"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-115"
+      />
+    </button>
+  </div>
+</div>
+`;
