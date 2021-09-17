@@ -17,28 +17,6 @@ describe("Notifications application", function() {
     cy.findByText("You have no new notification(s)").should("exist");
   });
 
-  it("shows 3 notifications", () => {
-    cy.server();
-    cy.route({
-      method: "GET",
-      url: "/feed",
-      response: feed
-    }).as("getFeed");
-
-    cy.visit("http://localhost:3000");
-
-    cy.wait("@getFeed").then(() => {
-      // another example of using commands like in React Testing Library
-      cy.findAllByTestId(/notification-id/).should("have.length", 3);
-
-      // example of taking image snapshot with cypress-image-snapshot (binds jest-image-snapshot to Cypress commands)
-      // try changing the Notifications component to break the snapshot and see the generated image diff
-      cy.get("[data-testid='notification-id-1']").matchImageSnapshot(
-        "first_notification"
-      );
-    });
-  });
-
   it("changes notifications title when it is liked", () => {
     cy.server();
     cy.route({

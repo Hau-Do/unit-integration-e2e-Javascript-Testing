@@ -1,17 +1,17 @@
 [
   {
     "id": "1",
-    "title": "JavaScript conference in Berlin",
-    "message": "Early bird tickets on sale before 15 August 2019"
+    "title": "MCH 2021 Blockchain Technology Conference",
+    "message": "Early bird tickets on sale before 07 March 2021"
   },
   {
     "id": "2",
-    "title": "Event-driven architecture meet-up in Paris",
+    "title": "Dap Chain Technical Meetup",
     "message": "Limited availability, make sure to book your place"
   },
   {
     "id": "3",
-    "title": "What is FinTech?",
+    "title": "Women In Tech",
     "message": "Join this event to learn more"
   }
 ]
